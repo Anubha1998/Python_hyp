@@ -1,0 +1,62 @@
+version: "0.1"
+user: anubhas
+key: JvGShZ2Bm8RdgmGFbbx4ZtbOb6DeQ8nqSvtHDZdDY7PzqaZMTq
+testSuites: []
+pre: [pip3 install -r requirements.txt --cache-dir CacheDir]
+preDirectives:
+    commands: [pip3 install -r requirements.txt --cache-dir CacheDir]
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+jobLabel:
+    - selenium-pyunit
+    - win
+    - autosplit
+runson: win
+autosplit: true
+concurrency: 1
+testDiscovery:
+    command: grep -nri 'LambdaTestApi' tests -ir --include=\*.py | sed 's/:.*//' | uniq -d
+    mode: static
+    type: raw
+testDiscoveryResult:
+    - tests/JiraPython.py
+testRunnerCommand: python3 $test
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+cacheDirectories:
+    - CacheDir
+cacheKey: '{{ checksum "requirements.txt" }}'
+retryOnFailure: true
+maxRetries: 1
+jobID: fa535479-8428-4f7f-ab68-a08d167cf2fe
+codeDirectory: Python_hyp
+framework:
+    name: ""
+    flags: []
+    discoveryFlags: []
+    discoveryType: ""
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: false
+    defaultReports: true
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+    version: ""
+    downloadURL: ""
+cypress: false
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false
+collectLocalGitData: true
+dynamicAllocation: false

@@ -1,0 +1,278 @@
+{"level":"debug","time":"2023-08-07T18:30:21.612+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"debug","time":"2023-08-07T18:30:24.313+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T18:30:24.314+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T18:30:24.314+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: python.yaml"}
+{"level":"debug","time":"2023-08-07T18:30:24.314+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : python.yaml"}
+{"level":"debug","time":"2023-08-07T18:30:25.191+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : /Users/anubhas/Desktop/Learning/Python_hyp"}
+{"level":"debug","time":"2023-08-07T18:30:25.191+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-07T18:30:25.191+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:30:25.191+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:30:25.191+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:30:25.191+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:30:25.191+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:30:25.191+0530","caller":"models/HypertestYamlConfig.go:419","msg":"Cache Directories:"}
+{"level":"info","time":"2023-08-07T18:30:25.191+0530","caller":"models/HypertestYamlConfig.go:421","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:30:25.191+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-07T18:30:25.192+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T18:30:25.192+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2023-08-07T18:30:25.192+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: grep -nri 'LambdaTestApi' tests -ir --include=\\*.py | sed 's/:.*//' | uniq -d"}
+{"level":"info","time":"2023-08-07T18:30:25.207+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:30:25.207+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mtests/JiraPython.py\u001b[0m\n"}
+{"level":"info","time":"2023-08-07T18:30:25.207+0530","caller":"core/lifecycle.go:291","msg":"Concurrency 2 is getting overwritten by 1"}
+{"level":"debug","time":"2023-08-07T18:30:31.443+0530","caller":"core/lifecycle.go:368","msg":"Job ID: b2bc3964-8b3e-430c-a313-276d717c7bb8"}
+{"level":"debug","time":"2023-08-07T18:30:31.444+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/anubhas/Desktop/Learning/Python_hyp"}
+{"level":"debug","time":"2023-08-07T18:30:31.451+0530","caller":"core/lifecycle.go:498","msg":"Zip file size: 3.95 kB"}
+{"level":"debug","time":"2023-08-07T18:30:31.451+0530","caller":"core/lifecycle.go:508","msg":"Archive location: /Users/anubhas/Desktop/Learning/Python_hyp/hyperexecute-code-b2bc3964-8b3e-430c-a313-276d717c7bb8.zip\n"}
+{"level":"debug","time":"2023-08-07T18:30:31.452+0530","caller":"storage/azure.go:53","msg":"Payload size: 3.95 kB"}
+{"level":"debug","time":"2023-08-07T18:30:31.452+0530","caller":"utils/azcopy.go:152","msg":"Downloading dependency binary ..................."}
+{"level":"info","time":"2023-08-07T18:30:44.845+0530","caller":"utils/azcopy.go:117","msg":"\u001b[91m\u001b[32m✔\u001b[0m Dependency binary downloaded successfully\u001b[0m"}
+{"level":"debug","time":"2023-08-07T18:30:46.984+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : /Users/anubhas/Desktop/Learning/Python_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T18:30:46.984+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.49 kB"}
+{"level":"debug","time":"2023-08-07T18:30:50.313+0530","caller":"core/lifecycle.go:536","msg":"Successfully deleted code archive: /Users/anubhas/Desktop/Learning/Python_hyp/hyperexecute-code-b2bc3964-8b3e-430c-a313-276d717c7bb8.zip\n"}
+{"level":"info","time":"2023-08-07T18:31:02.492+0530","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4mb2bc3964-8b3e-430c-a313-276d717c7bb8\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:31:02.493+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b2bc3964-8b3e-430c-a313-276d717c7bb8\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-07T18:31:02.493+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-08-07T18:31:02.493+0530","caller":"jobmanager/setup.go:149","msg":"Task id: d2ba82c2-fe02-43da-898b-5425f812bc25"}
+{"level":"debug","time":"2023-08-07T18:31:02.493+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: d2ba82c2-fe02-43da-898b-5425f812bc25"}
+{"level":"debug","time":"2023-08-07T18:31:11.928+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-08-07T18:31:11.928+0530","caller":"core/lifecycle.go:607","msg":"taskId:d2ba82c2-fe02-43da-898b-5425f812bc25 has failed with remark: step 1 - exit status 1\n"}
+{"level":"info","time":"2023-08-07T18:31:11.928+0530","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n\u001b[101m FAILED \u001b[0m\n"}
+{"level":"info","time":"2023-08-07T18:31:11.928+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:31:11.928+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    14s"}
+{"level":"debug","time":"2023-08-07T18:31:11.928+0530","caller":"core/lifecycle.go:700","msg":"Context canceled"}
+{"level":"info","time":"2023-08-07T18:31:11.928+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          1"}
+{"level":"info","time":"2023-08-07T18:31:11.929+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             14s"}
+{"level":"info","time":"2023-08-07T18:31:11.929+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Stages\u001b[0m:                         1"}
+{"level":"info","time":"2023-08-07T18:31:11.928+0530","caller":"core/lifecycle.go:703","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:31:11.929+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      0.00%"}
+{"level":"debug","time":"2023-08-07T18:31:11.929+0530","caller":"core/lifecycle.go:706","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-08-07T18:31:11.929+0530","caller":"core/lifecycle.go:707","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-08-07T18:31:11.929+0530","caller":"core/lifecycle.go:709","msg":"All goroutines exited"}
+{"level":"info","time":"2023-08-07T18:31:11.929+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"error","time":"2023-08-07T18:31:11.929+0530","caller":"core/lifecycle.go:711","msg":"2023-08-07T18:30:20+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2023-08-07T18:31:11.929+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b2bc3964-8b3e-430c-a313-276d717c7bb8\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2023-08-07T18:31:11.929+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            0.00%"}
+{"level":"debug","time":"2023-08-07T18:31:11.929+0530","caller":"cmd/bin.go:295","msg":"Exiting application due to error Failed tasks found."}
+{"level":"debug","time":"2023-08-07T18:31:11.929+0530","caller":"cmd/bin.go:255","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-08-07T18:31:34.922+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"debug","time":"2023-08-07T18:31:37.580+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-07T18:31:37.581+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-07T18:31:37.582+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: python.yaml"}
+{"level":"debug","time":"2023-08-07T18:31:37.582+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : python.yaml"}
+{"level":"debug","time":"2023-08-07T18:31:38.448+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : /Users/anubhas/Desktop/Learning/Python_hyp"}
+{"level":"debug","time":"2023-08-07T18:31:38.449+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-07T18:31:38.450+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:31:38.452+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:31:38.452+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:31:38.452+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:31:38.453+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:31:38.453+0530","caller":"models/HypertestYamlConfig.go:419","msg":"Cache Directories:"}
+{"level":"info","time":"2023-08-07T18:31:38.453+0530","caller":"models/HypertestYamlConfig.go:421","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:31:38.453+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-07T18:31:38.453+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T18:31:38.456+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2023-08-07T18:31:38.456+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: grep -nri 'LambdaTestApi' tests -ir --include=\\*.py | sed 's/:.*//' | uniq -d"}
+{"level":"info","time":"2023-08-07T18:31:38.486+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:31:38.486+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mtests/JiraPython.py\u001b[0m\n"}
+{"level":"info","time":"2023-08-07T18:31:38.486+0530","caller":"core/lifecycle.go:291","msg":"Concurrency 2 is getting overwritten by 1"}
+{"level":"debug","time":"2023-08-07T18:31:39.659+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 39d0f199-5e33-4dee-b25d-79b36eeb23ad"}
+{"level":"debug","time":"2023-08-07T18:31:39.661+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/anubhas/Desktop/Learning/Python_hyp"}
+{"level":"debug","time":"2023-08-07T18:31:39.679+0530","caller":"core/lifecycle.go:498","msg":"Zip file size: 4.10 kB"}
+{"level":"debug","time":"2023-08-07T18:31:39.680+0530","caller":"core/lifecycle.go:508","msg":"Archive location: /Users/anubhas/Desktop/Learning/Python_hyp/hyperexecute-code-39d0f199-5e33-4dee-b25d-79b36eeb23ad.zip\n"}
+{"level":"debug","time":"2023-08-07T18:31:39.681+0530","caller":"storage/azure.go:53","msg":"Payload size: 4.10 kB"}
+{"level":"debug","time":"2023-08-07T18:31:45.120+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : /Users/anubhas/Desktop/Learning/Python_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-07T18:31:45.120+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.49 kB"}
+{"level":"debug","time":"2023-08-07T18:31:48.570+0530","caller":"core/lifecycle.go:536","msg":"Successfully deleted code archive: /Users/anubhas/Desktop/Learning/Python_hyp/hyperexecute-code-39d0f199-5e33-4dee-b25d-79b36eeb23ad.zip\n"}
+{"level":"info","time":"2023-08-07T18:31:55.832+0530","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4m39d0f199-5e33-4dee-b25d-79b36eeb23ad\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:31:55.832+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=39d0f199-5e33-4dee-b25d-79b36eeb23ad\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-07T18:31:55.832+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-08-07T18:31:55.832+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 028cf2ca-da00-4310-9926-2eacd9bc9eac"}
+{"level":"debug","time":"2023-08-07T18:31:55.832+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 028cf2ca-da00-4310-9926-2eacd9bc9eac"}
+{"level":"debug","time":"2023-08-07T18:32:40.261+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"debug","time":"2023-08-07T18:32:40.263+0530","caller":"core/lifecycle.go:700","msg":"Context canceled"}
+{"level":"info","time":"2023-08-07T18:32:40.264+0530","caller":"core/lifecycle.go:703","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-08-07T18:32:40.264+0530","caller":"core/lifecycle.go:706","msg":"Quit requested from main goroutine...."}
+{"level":"info","time":"2023-08-07T18:32:40.264+0530","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2023-08-07T18:32:40.265+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m3s\u001b[0m"}
+{"level":"info","time":"2023-08-07T18:32:40.265+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    46s"}
+{"level":"info","time":"2023-08-07T18:32:40.265+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          1"}
+{"level":"debug","time":"2023-08-07T18:32:40.264+0530","caller":"core/lifecycle.go:707","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-08-07T18:32:40.266+0530","caller":"core/lifecycle.go:709","msg":"All goroutines exited"}
+{"level":"info","time":"2023-08-07T18:32:40.266+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=39d0f199-5e33-4dee-b25d-79b36eeb23ad\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-07T18:32:40.266+0530","caller":"cmd/bin.go:255","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2023-08-07T18:32:40.266+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             46s"}
+{"level":"debug","time":"2023-08-08T09:59:04.853+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"debug","time":"2023-08-08T09:59:08.098+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-08T09:59:08.099+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-08T09:59:08.099+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: python.yaml"}
+{"level":"debug","time":"2023-08-08T09:59:08.100+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : python.yaml"}
+{"level":"debug","time":"2023-08-08T09:59:08.898+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : /Users/anubhas/Desktop/Learning/Python_hyp"}
+{"level":"debug","time":"2023-08-08T09:59:08.899+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-08T09:59:08.900+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-08T09:59:08.901+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-08T09:59:08.901+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-08-08T09:59:08.901+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-08T09:59:08.901+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-08T09:59:08.901+0530","caller":"models/HypertestYamlConfig.go:419","msg":"Cache Directories:"}
+{"level":"info","time":"2023-08-08T09:59:08.901+0530","caller":"models/HypertestYamlConfig.go:421","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2023-08-08T09:59:08.901+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-08T09:59:08.901+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-08T09:59:08.901+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2023-08-08T09:59:08.901+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: grep -nri 'LambdaTestApi' tests -ir --include=\\*.py | sed 's/:.*//' | uniq -d"}
+{"level":"info","time":"2023-08-08T09:59:08.928+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-08T09:59:08.928+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mtests/JiraPython.py\u001b[0m\n"}
+{"level":"info","time":"2023-08-08T09:59:08.928+0530","caller":"core/lifecycle.go:291","msg":"Concurrency 2 is getting overwritten by 1"}
+{"level":"debug","time":"2023-08-08T09:59:10.070+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 16edb7d9-acab-44a6-b8f0-565e6f06ed16"}
+{"level":"debug","time":"2023-08-08T09:59:10.073+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/anubhas/Desktop/Learning/Python_hyp"}
+{"level":"debug","time":"2023-08-08T09:59:10.081+0530","caller":"core/lifecycle.go:498","msg":"Zip file size: 4.11 kB"}
+{"level":"debug","time":"2023-08-08T09:59:10.081+0530","caller":"core/lifecycle.go:508","msg":"Archive location: /Users/anubhas/Desktop/Learning/Python_hyp/hyperexecute-code-16edb7d9-acab-44a6-b8f0-565e6f06ed16.zip\n"}
+{"level":"debug","time":"2023-08-08T09:59:10.082+0530","caller":"storage/azure.go:53","msg":"Payload size: 4.11 kB"}
+{"level":"debug","time":"2023-08-08T09:59:15.934+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : /Users/anubhas/Desktop/Learning/Python_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-08T09:59:15.935+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.49 kB"}
+{"level":"debug","time":"2023-08-08T09:59:19.368+0530","caller":"core/lifecycle.go:536","msg":"Successfully deleted code archive: /Users/anubhas/Desktop/Learning/Python_hyp/hyperexecute-code-16edb7d9-acab-44a6-b8f0-565e6f06ed16.zip\n"}
+{"level":"info","time":"2023-08-08T09:59:27.064+0530","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4m16edb7d9-acab-44a6-b8f0-565e6f06ed16\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2023-08-08T09:59:27.065+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=16edb7d9-acab-44a6-b8f0-565e6f06ed16\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-08T09:59:27.065+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-08-08T09:59:27.065+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 3bb1b589-36dd-4854-a5ea-c4a8cef71960"}
+{"level":"debug","time":"2023-08-08T09:59:27.065+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 3bb1b589-36dd-4854-a5ea-c4a8cef71960"}
+{"level":"debug","time":"2023-08-08T10:00:06.561+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-08-08T10:00:06.561+0530","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m4s\u001b[0m"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    39s"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          1"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             39s"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Stages\u001b[0m:                         3"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      100.00%"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         0"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"debug","time":"2023-08-08T10:00:06.562+0530","caller":"core/lifecycle.go:700","msg":"Context canceled"}
+{"level":"info","time":"2023-08-08T10:00:06.562+0530","caller":"core/lifecycle.go:703","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-08-08T10:00:06.562+0530","caller":"core/lifecycle.go:706","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-08-08T10:00:06.563+0530","caller":"core/lifecycle.go:707","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-08-08T10:00:06.563+0530","caller":"core/lifecycle.go:709","msg":"All goroutines exited"}
+{"level":"info","time":"2023-08-08T10:00:06.563+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=16edb7d9-acab-44a6-b8f0-565e6f06ed16\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-08T10:00:06.563+0530","caller":"cmd/bin.go:255","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-08-08T11:06:46.932+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"debug","time":"2023-08-08T11:06:51.236+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-08T11:06:51.236+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-08T11:06:51.236+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: python.yaml"}
+{"level":"debug","time":"2023-08-08T11:06:51.236+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : python.yaml"}
+{"level":"debug","time":"2023-08-08T11:06:52.075+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : /Users/anubhas/Desktop/Learning/Python_hyp"}
+{"level":"debug","time":"2023-08-08T11:06:52.076+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-08T11:06:52.076+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:06:52.076+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:06:52.076+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:06:52.076+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:06:52.076+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:06:52.076+0530","caller":"models/HypertestYamlConfig.go:419","msg":"Cache Directories:"}
+{"level":"info","time":"2023-08-08T11:06:52.076+0530","caller":"models/HypertestYamlConfig.go:421","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:06:52.076+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-08T11:06:52.076+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-08T11:06:52.076+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2023-08-08T11:06:52.076+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: grep -nri 'LambdaTestApi' tests -ir --include=\\*.py | sed 's/:.*//' | uniq -d"}
+{"level":"info","time":"2023-08-08T11:06:52.116+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:06:52.116+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mtests/JiraPython.py\u001b[0m\n"}
+{"level":"info","time":"2023-08-08T11:06:52.116+0530","caller":"core/lifecycle.go:291","msg":"Concurrency 2 is getting overwritten by 1"}
+{"level":"debug","time":"2023-08-08T11:06:57.494+0530","caller":"core/lifecycle.go:368","msg":"Job ID: 9fc5fa0b-4c00-4722-887a-83482f36580a"}
+{"level":"debug","time":"2023-08-08T11:06:57.495+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/anubhas/Desktop/Learning/Python_hyp"}
+{"level":"debug","time":"2023-08-08T11:06:57.498+0530","caller":"core/lifecycle.go:498","msg":"Zip file size: 4.11 kB"}
+{"level":"debug","time":"2023-08-08T11:06:57.499+0530","caller":"core/lifecycle.go:508","msg":"Archive location: /Users/anubhas/Desktop/Learning/Python_hyp/hyperexecute-code-9fc5fa0b-4c00-4722-887a-83482f36580a.zip\n"}
+{"level":"debug","time":"2023-08-08T11:06:57.499+0530","caller":"storage/azure.go:53","msg":"Payload size: 4.11 kB"}
+{"level":"debug","time":"2023-08-08T11:07:01.409+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : /Users/anubhas/Desktop/Learning/Python_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-08T11:07:01.410+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.49 kB"}
+{"level":"debug","time":"2023-08-08T11:07:04.749+0530","caller":"core/lifecycle.go:536","msg":"Successfully deleted code archive: /Users/anubhas/Desktop/Learning/Python_hyp/hyperexecute-code-9fc5fa0b-4c00-4722-887a-83482f36580a.zip\n"}
+{"level":"info","time":"2023-08-08T11:07:11.829+0530","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4m9fc5fa0b-4c00-4722-887a-83482f36580a\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:07:11.829+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=9fc5fa0b-4c00-4722-887a-83482f36580a\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-08T11:07:11.829+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-08-08T11:07:11.829+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 9ddcf273-aa78-4cf1-88e4-67bbb811b3d6"}
+{"level":"debug","time":"2023-08-08T11:07:11.830+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 9ddcf273-aa78-4cf1-88e4-67bbb811b3d6"}
+{"level":"debug","time":"2023-08-08T11:08:01.305+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"debug","time":"2023-08-08T11:08:01.306+0530","caller":"core/lifecycle.go:700","msg":"Context canceled"}
+{"level":"info","time":"2023-08-08T11:08:01.306+0530","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2023-08-08T11:08:01.306+0530","caller":"core/lifecycle.go:703","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2023-08-08T11:08:01.306+0530","caller":"core/lifecycle.go:706","msg":"Quit requested from main goroutine...."}
+{"level":"info","time":"2023-08-08T11:08:01.306+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m4s\u001b[0m"}
+{"level":"debug","time":"2023-08-08T11:08:01.306+0530","caller":"core/lifecycle.go:707","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2023-08-08T11:08:01.306+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    50s"}
+{"level":"info","time":"2023-08-08T11:08:01.306+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          1"}
+{"level":"debug","time":"2023-08-08T11:08:01.306+0530","caller":"core/lifecycle.go:709","msg":"All goroutines exited"}
+{"level":"info","time":"2023-08-08T11:08:01.306+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             50s"}
+{"level":"info","time":"2023-08-08T11:08:01.306+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Stages\u001b[0m:                         3"}
+{"level":"info","time":"2023-08-08T11:08:01.306+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=9fc5fa0b-4c00-4722-887a-83482f36580a\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2023-08-08T11:08:01.306+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      100.00%"}
+{"level":"info","time":"2023-08-08T11:08:01.306+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"debug","time":"2023-08-08T11:08:01.306+0530","caller":"cmd/bin.go:255","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2023-08-08T11:08:01.306+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"debug","time":"2023-08-08T11:09:40.494+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.101 Max:0.2.101} "}
+{"level":"debug","time":"2023-08-08T11:09:42.143+0530","caller":"core/lifecycle.go:100","msg":"Setting environment"}
+{"level":"debug","time":"2023-08-08T11:09:42.144+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2023-08-08T11:09:42.145+0530","caller":"yamlconfigmanager/setup.go:401","msg":"Custom location for .hyperexecute.yaml specified. Using: python.yaml"}
+{"level":"debug","time":"2023-08-08T11:09:42.145+0530","caller":"yamlconfigmanager/setup.go:77","msg":"using hyperexecute config from : python.yaml"}
+{"level":"debug","time":"2023-08-08T11:09:42.945+0530","caller":"yamlconfigmanager/setup.go:1670","msg":"Autodetecting test type in files of path : /Users/anubhas/Desktop/Learning/Python_hyp"}
+{"level":"debug","time":"2023-08-08T11:09:42.946+0530","caller":"yamlconfigmanager/setup.go:352","msg":"Tunnel: false"}
+{"level":"info","time":"2023-08-08T11:09:42.946+0530","caller":"models/HypertestYamlConfig.go:304","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:09:42.947+0530","caller":"models/HypertestYamlConfig.go:308","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:09:42.947+0530","caller":"models/HypertestYamlConfig.go:347","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:09:42.947+0530","caller":"models/HypertestYamlConfig.go:351","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:09:42.947+0530","caller":"models/HypertestYamlConfig.go:402","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:09:42.947+0530","caller":"models/HypertestYamlConfig.go:419","msg":"Cache Directories:"}
+{"level":"info","time":"2023-08-08T11:09:42.947+0530","caller":"models/HypertestYamlConfig.go:421","msg":"    \u001b[36mCacheDir\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:09:42.947+0530","caller":"models/HypertestYamlConfig.go:442","msg":""}
+{"level":"debug","time":"2023-08-08T11:09:42.947+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-08-08T11:09:42.947+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2023-08-08T11:09:42.947+0530","caller":"testdiscoverer/discoverer.go:70","msg":"Test Discovery Command: grep -nri 'LambdaTestApi' tests -ir --include=\\*.py | sed 's/:.*//' | uniq -d"}
+{"level":"info","time":"2023-08-08T11:09:42.966+0530","caller":"testdiscoverer/discoverer.go:83","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 1\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:09:42.966+0530","caller":"testdiscoverer/discoverer.go:84","msg":"    \u001b[2mtests/JiraPython.py\u001b[0m\n"}
+{"level":"info","time":"2023-08-08T11:09:42.966+0530","caller":"core/lifecycle.go:291","msg":"Concurrency 2 is getting overwritten by 1"}
+{"level":"debug","time":"2023-08-08T11:09:44.052+0530","caller":"core/lifecycle.go:368","msg":"Job ID: fa535479-8428-4f7f-ab68-a08d167cf2fe"}
+{"level":"debug","time":"2023-08-08T11:09:44.054+0530","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: /Users/anubhas/Desktop/Learning/Python_hyp"}
+{"level":"debug","time":"2023-08-08T11:09:44.065+0530","caller":"core/lifecycle.go:498","msg":"Zip file size: 4.11 kB"}
+{"level":"debug","time":"2023-08-08T11:09:44.065+0530","caller":"core/lifecycle.go:508","msg":"Archive location: /Users/anubhas/Desktop/Learning/Python_hyp/hyperexecute-code-fa535479-8428-4f7f-ab68-a08d167cf2fe.zip\n"}
+{"level":"debug","time":"2023-08-08T11:09:44.066+0530","caller":"storage/azure.go:53","msg":"Payload size: 4.11 kB"}
+{"level":"debug","time":"2023-08-08T11:09:47.539+0530","caller":"receptionmanager/setup.go:146","msg":"Uploading yaml : /Users/anubhas/Desktop/Learning/Python_hyp/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-08-08T11:09:47.539+0530","caller":"storage/azure.go:53","msg":"Payload size: 1.49 kB"}
+{"level":"debug","time":"2023-08-08T11:09:51.000+0530","caller":"core/lifecycle.go:536","msg":"Successfully deleted code archive: /Users/anubhas/Desktop/Learning/Python_hyp/hyperexecute-code-fa535479-8428-4f7f-ab68-a08d167cf2fe.zip\n"}
+{"level":"info","time":"2023-08-08T11:09:58.071+0530","caller":"jobmanager/setup.go:129","msg":"Job \u001b[1m\u001b[4mfa535479-8428-4f7f-ab68-a08d167cf2fe\u001b[0m\u001b[0m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:09:58.072+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=fa535479-8428-4f7f-ab68-a08d167cf2fe\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-08T11:09:58.072+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-08-08T11:09:58.072+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 8a0d166f-8450-4bf1-9d18-2f73ff85398d"}
+{"level":"debug","time":"2023-08-08T11:09:58.072+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 8a0d166f-8450-4bf1-9d18-2f73ff85398d"}
+{"level":"debug","time":"2023-08-08T11:09:58.345+0530","caller":"taskstagemanager/tracker.go:222","msg":"Retrying to poll stage details"}
+{"level":"debug","time":"2023-08-08T11:10:42.574+0530","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-08-08T11:10:42.575+0530","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2023-08-08T11:10:42.575+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m0s\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:10:42.575+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    44s"}
+{"level":"info","time":"2023-08-08T11:10:42.575+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          1"}
+{"level":"info","time":"2023-08-08T11:10:42.576+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             44s"}
+{"level":"info","time":"2023-08-08T11:10:42.576+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mTotal Stages\u001b[0m:                         3"}
+{"level":"info","time":"2023-08-08T11:10:42.576+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      100.00%"}
+{"level":"info","time":"2023-08-08T11:10:42.576+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2023-08-08T11:10:42.576+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"debug","time":"2023-08-08T11:10:42.576+0530","caller":"core/lifecycle.go:700","msg":"Context canceled"}
+{"level":"info","time":"2023-08-08T11:10:42.576+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2023-08-08T11:10:42.577+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:10:42.576+0530","caller":"core/lifecycle.go:703","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"info","time":"2023-08-08T11:10:42.577+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2023-08-08T11:10:42.577+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2023-08-08T11:10:42.577+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2023-08-08T11:10:42.577+0530","caller":"jobmanager/JobSummaryManager.go:97","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         0"}
+{"level":"info","time":"2023-08-08T11:10:42.577+0530","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"debug","time":"2023-08-08T11:10:42.577+0530","caller":"core/lifecycle.go:706","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-08-08T11:10:42.577+0530","caller":"core/lifecycle.go:707","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-08-08T11:10:42.577+0530","caller":"core/lifecycle.go:709","msg":"All goroutines exited"}
+{"level":"info","time":"2023-08-08T11:10:42.577+0530","caller":"jobmanager/setup.go:367","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=fa535479-8428-4f7f-ab68-a08d167cf2fe\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2023-08-08T11:10:42.577+0530","caller":"cmd/bin.go:255","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-08-09T15:05:31.315+0530","caller":"cmd/bin.go:103","msg":"Upstream version: {Name: Min:0.2.103 Max:0.2.103} "}
+{"level":"info","time":"2023-08-09T15:05:31.317+0530","caller":"cmd/bin.go:112","msg":"Current binary version v0.2.101 is less than upstream version v0.2.103."}
+{"level":"info","time":"2023-08-09T15:05:31.317+0530","caller":"updater/updater.go:64","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2023-08-09T15:05:31.317+0530","caller":"updater/updater.go:65","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/darwin/hyperexecute"}
+{"level":"debug","time":"2023-08-09T15:05:36.097+0530","caller":"updater/updater.go:85","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2023-08-09T15:05:36.098+0530","caller":"updater/updater.go:86","msg":"Please run it again "}
+{"level":"info","time":"2023-08-09T15:05:36.098+0530","caller":"cmd/bin.go:120","msg":"Update successfully installed. Please restart the binary"}
