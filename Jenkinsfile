@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // This step checks out your Python repository from version control (e.g., Git)
-                checkout scm
+                checkout([$class: 'GitSCM', branches: [[name: 'main']], userRemoteConfigs: [[url: 'https://github.com/Anubha1998/Python_hyp.git']]])
             }
         }
         
@@ -21,7 +21,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Run your Python tests here
-                sh 'python -m tests/JiraPython.py'
+                sh 'python -m tests/JiraPython.py''
             }
         }
     }
