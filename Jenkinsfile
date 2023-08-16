@@ -21,7 +21,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Run your Python tests here
-                sh 'python -m tests/JiraPython.py''
+                sh 'python -m tests.JiraPython'
             }
         }
     }
